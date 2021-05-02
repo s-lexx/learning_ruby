@@ -6,23 +6,13 @@ class BodyBilder
     @deltoid = 0
   end
 
-  def pumping(muscle_points)
-
-    count = 0
-
-    while count < muscle_points
-      
-      muscle_select = rand(3)
+  def workout(muscle_select)
 
       case muscle_select 
-        when 0 then @biceps += 1
-        when 1 then @triceps += 1
-        when 2 then @deltoid += 1
+        when 'biceps' then @biceps += 1
+        when 'triceps' then @triceps += 1
+        when "deltoid" then @deltoid += 1
       end
-
-      count += 1
-
-    end
 
   end
 
