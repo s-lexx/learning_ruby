@@ -1,21 +1,21 @@
 class Film
 
-  def initialize(film, drejtor) # конструктор класса и определения переменных
+  def initialize(film, director) # конструктор класса и определения переменных
 
     @film_name = film
-    @drejtor_name = drejtor
+    @director_name = director
 
   end
 
   def film_name # метод для получения названия фильма
 
-    return @film_name
+    @film_name
 
   end
 
-  def drejtor_name # метод для получения имени режиссера
+  def director_name # метод для получения имени режиссера
 
-    return @drejtor_name
+    @director_name
 
   end
 

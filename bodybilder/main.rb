@@ -1,4 +1,4 @@
-require_relative 'BodyBilder.rb'
+require_relative 'body_bilder.rb'
 
 one = BodyBilder.new
 two = BodyBilder.new

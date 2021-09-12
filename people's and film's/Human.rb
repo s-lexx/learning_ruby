@@ -11,19 +11,19 @@ class Human
 
   def old? # метод для определения является человек пожилой или нет
 
-    @age > 60 ? true : false 
+    @age.to_i > 60 ? true : false 
 
   end
 
-  def set_film(favorite_movie) # назначения любимого фильма для человека 
+  def film=(favorite_movie) # назначения любимого фильма для человека 
 
     @favorite_movie = favorite_movie
 
   end
 
-  def get_film # получение названия любимого фильма для человека
+  def film # получение названия любимого фильма для человека
 
-    return @favorite_movie
+    @favorite_movie
 
   end
   

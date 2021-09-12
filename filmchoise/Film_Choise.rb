@@ -1,4 +1,4 @@
-require_relative 'Film.rb'
+require_relative 'film.rb'
 
 if Gem.win_platform? # Блок кода для устранения проблемы c кириллицей на платформе Windows
 
